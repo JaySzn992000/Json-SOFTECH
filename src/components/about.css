@@ -1,0 +1,423 @@
+
+
+.slider-col #div1 h1 {
+margin-top: 0.3em;
+color:#FFFF;
+position: absolute;
+top: 45%;
+left: 50%;
+transform: translate(-45%,-50%);
+font-size: 1.7rem;
+}
+
+
+#block-formediaquery h2 {
+font-size: 1.2rem;
+}
+
+
+#servi-col{
+font-size: 1.6rem;
+}
+
+
+.white-night-diff {
+font-size: 1.2rem;
+line-height: 1.8em;
+margin-top: .7em;
+color: #000;
+}
+
+
+.our-tech {
+transform: translateY(7.1em);
+}
+
+
+.btn_abtUs {
+background-color: #4169E1;
+border: none;
+padding: 18px;
+width: 137px;
+margin-top: 2.3em;
+border-radius: 31px;
+cursor: pointer;
+}
+
+
+#call {
+margin-bottom: .9em;
+}
+
+
+.btn_abtUs a {
+font-size: 1rem;
+color: #FFFF;
+}
+
+.slider-col #div2 {
+margin-top: 3em;
+}
+
+
+.slider-col a {
+color: #DCDCDC;
+text-decoration: none;
+}
+
+
+.cg-bg {
+position: absolute;
+width: 100%;
+height: 537px;
+z-index: -1;
+top: 0;
+}
+
+
+.cg-bg img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+
+.bg-layer {
+position: absolute;
+top: 0;
+width: 100%;
+height: 100%;
+z-index: 1;
+background: linear-gradient(
+rgba(0, 0, 0, 0.6),
+rgba(0, 0, 0, 0.6)
+);
+}
+
+
+.slider-col {
+width: 100%;
+height: 377px;
+text-align: center;
+color: #FFFF;
+overflow: hidden;
+}
+
+
+.slider-col #div1 h1 {
+margin-top: .3em;
+}
+
+
+.slider-col h1 {
+font-size: 2.1rem;
+line-height: 1.1em;
+}
+
+.slider-col ul {
+margin-top: 1em;
+}
+
+.slider-col .fit-div {
+width: 100%;
+height: 100%;
+line-height: 2.1em;
+}
+
+
+.slider-col a {
+color: #DCDCDC;
+}
+
+
+.bg-layer {
+background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+top: 0;
+position: absolute;
+width: 100%;
+height: 100%;
+}
+
+
+.about-us {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 13.7em;
+gap: 5em;
+text-align: start;
+}
+
+.about-us img {
+width: 577px;
+margin-top: -17em;
+}
+
+.about-us span {
+width: 597px;
+}
+
+.about-us p {
+margin-top: 1.3em;
+text-align: justify;
+font-size: 1.1rem;
+line-height: 1.7em;
+margin-bottom: 2em;
+color:#808080;
+}
+
+
+#aboutus {
+color: #4169E1;
+font-size: 2.1rem;
+}
+
+
+.customer-container {
+text-align: center;
+margin-top: -4.7em;
+}
+
+
+.div-container {
+display: flex;
+justify-content: center;
+gap: 1.7em;
+}
+
+
+.over-effectdiv {
+width: 367px;
+padding: 17px;
+padding-bottom: 41px;
+background: #FFFF;
+box-shadow: 40px 40px 100px rgb(227, 203, 227);
+transition: 0.5s;
+}
+
+
+.over-effectdiv:hover p {
+color: #FFFF;
+}
+
+
+.over-effectdiv img {
+width: 217px;
+}
+
+
+.over-effectdiv h2 {
+margin-bottom: 1.1em;
+margin-top: .9em;
+}
+
+.over-effectdiv:hover h2 {
+color: #fff;
+}
+
+
+
+@media (max-width: 320px) {
+
+.cg-bg {
+height: 240px;
+}
+
+.slider-col {
+height: 240px;
+}
+
+.slider-col h1 {
+font-size: 1.3rem;
+}
+
+.about-us {
+flex-direction: column;
+margin-top: 7em;
+gap: 1.7em;
+text-align: center;
+}
+
+.about-us img {
+width: 230px;
+margin-top: 0;
+}
+
+.about-us span {
+width: 100%;
+padding: 0 1em;
+}
+
+.white-night-diff {
+font-size: 1.1rem;
+}
+
+#aboutus {
+font-size: 1.7rem;
+}
+
+.div-container {
+flex-direction: column;
+gap: 1.7em;
+}
+
+.over-effectdiv {
+width: 90%;
+margin: auto;
+}
+
+iframe {
+width: 100% !important;
+height: 230px !important;
+}
+
+}
+
+
+
+@media (min-width: 321px) and (max-width: 768px) {
+
+
+.cg-bg {
+height: 350px;
+}
+
+.slider-col {
+height: 320px;
+}
+
+.slider-col #div1 h1 {
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-40%,-50%);
+}
+
+.slider-col h1 {
+font-size: 1.7rem;
+}
+
+.about-us {
+flex-direction: column;
+margin-top: 4.7em;
+gap: 2.7em;
+}
+
+
+.about-us img {
+width: 330px;
+margin-top: 0;
+}
+
+.about-us span {
+width: 90%;
+}
+
+.white-night-diff {
+font-size: 1.2rem;
+}
+
+#aboutus {
+font-size: 1.9rem;
+}
+
+.div-container {
+flex-direction: column;
+gap: 2em;
+}
+
+.over-effectdiv {
+width: 85%;
+margin: auto;
+}
+
+
+iframe {
+width: 100% !important;
+height: 300px !important;
+margin-bottom: 11.7em;
+}
+
+.e-learning h2 {
+font-size: 1.3rem;
+line-height: 2em;
+}
+
+#servi-col {
+font-size: 1.5rem;
+width: 95%;
+margin: auto;
+}
+
+.over-effectdiv h2 {
+font-size: 1.3rem;
+}
+
+}
+
+
+@media (min-width: 769px) and (max-width: 1500px) {
+
+
+.cg-bg {
+height: 450px;
+}
+
+.slider-col {
+height: 350px;
+}
+
+.slider-col h1 {
+font-size: 2.1rem;
+}
+
+
+.e-learning h2 {
+text-align: start;
+line-height: 1.7em;
+}
+
+.about-us {
+flex-direction: row;
+margin-top: 12em;
+gap: 3em;
+}
+
+#aboutus {
+font-size: 2rem;
+}
+
+
+.about-us span {
+width: 470px;
+}
+
+.white-night-diff {
+font-size: 1.3rem;
+line-height: 1.8em;
+}
+
+.div-container {
+gap: 1.7em;
+}
+
+.over-effectdiv {
+width: 300px;
+}
+
+iframe {
+width: 100% !important;
+height: 380px !important;
+margin-bottom: 11.7em;
+}
+
+
+#servi-col {
+margin-top: 4.3em;
+}
+
+.customer-container {
+margin-top: -11.7em;
+}
+
+}

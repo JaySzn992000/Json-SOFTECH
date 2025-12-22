@@ -1,0 +1,275 @@
+/* Done */
+
+/* ...  
+Best Selling Gifts .. */
+
+.header_Filter {
+width: 100%;
+}
+
+
+/* .. Total with , 
+Proudcts .. */
+
+.flex_productlist {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(227px, 1fr));
+justify-content: center;   
+max-width: 1200px;
+margin: 0 auto;            
+gap: .2em;
+margin-top: 2.7em;
+}
+
+
+/* .. Images size of 
+the Products ...  */
+
+
+.flex_productlist .produclist_divContainer {
+position: relative;
+height: auto;
+margin-bottom: 2.1em;
+border-radius: 21px;
+border: 1px solid rgba(27, 6, 6, 0.055);
+box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12),
+0 10px 25px rgba(0, 0, 0, 0.08);
+max-width: 235px;
+}
+
+
+.flex_productlist .produclist_divContainer img {
+width: 100%;
+border-radius: 17px;
+margin-bottom: -0.5em;
+}
+
+
+/* ... Text Postition in 
+Down of Img ... */
+
+
+.flex_productlist .padding_contain {
+width: 100%;
+padding: 13px;
+margin: -.5em 0em 0.3em 0em;
+}
+
+
+.review_Cntnr {
+display: flex;
+align-items: center;
+gap: .3em;
+margin-top: -.4em;
+margin-left: -.6em;
+}
+
+
+.review_Cntnr .fa_Review{
+margin-top: .7em;
+margin-left: .3em;
+}
+
+
+.review_Cntnr .fa_Review {
+color: rgb(70, 69, 69);
+}
+
+
+.padding_contain #Review_Img {
+width: 33px;
+}
+
+
+.flex_productlist .padding_contain .sizeClr {
+color: rgb(128, 128, 128);
+margin-top: 0.4em;
+}
+
+
+/* ... This is for Text ALign 
+Start of Product Texts .. */
+
+
+.flex_inr {
+text-align: start;
+}
+
+
+.flex_inr li {
+font-size: 0.9rem;
+line-height: 2em;
+color: #333;
+}
+
+
+/* .. Price Div 
+Flex .. */
+
+
+.flex_inr .price_div {
+display: flex;
+align-items: center;
+gap: 0.3em;
+width: auto;
+max-width: 79px;
+height: 34px;
+height: auto;
+margin-top: .7em;
+padding-left: 13px;
+padding-right: 6px;
+flex-wrap: wrap;
+color: #000000;
+border-radius: 17px;
+}
+
+
+.fa-heart_products {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  padding: 11px;
+  font-size: 1.3rem;
+  margin-right: .5em;
+  margin-top: .5em;
+
+  color: #DCDCDC;
+  cursor: pointer;
+
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+
+.fa-heart_products.wishlist-active {
+color: #4169E1 !important;
+}
+
+
+
+@media (max-width: 768px) {
+
+.padding_contain li {
+font-size: 0.8rem;
+}
+
+.padding_contain .fa_Price {
+font-size: 0.8rem;
+}
+
+.header_Filter {
+width: 100%;
+margin: 0em 0em 0em 0em;
+}
+
+.flex_inr li {
+line-height: 2.3em;
+}
+
+
+.flex_productlist {
+display: grid;
+max-width: 95%;
+transform: translateX(0vw);
+grid-template-columns: repeat(2, 1fr);
+}
+
+
+.flex_productlist .produclist_divContainer {
+max-width: 100%;
+}
+
+
+.flex_productlist .produclist_divContainer img {
+width: 100%;
+}
+
+
+/* ... products 
+Size ..  */
+
+/* ... Products gap 
+Between ... */
+
+.flex_productlist {
+gap: 0.3em;
+}
+
+
+/* .. Whislist ADD 
+heart Size .. */
+
+.fa-heart_products {
+padding: 0px;
+font-size: 1.2rem;
+margin-right: .8em;
+margin-top: .7em;
+}
+
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1036px) {
+
+.header_Filter {
+width: 98%;
+margin: 0em 0em 0em 0em;
+}
+
+.flex_productlist {
+display: grid;
+max-width: 95%;
+transform: translateX(0vw);
+grid-template-columns: repeat(2, 1fr);
+}
+
+.flex_productlist .produclist_divContainer {
+max-width: 100%;
+}
+
+}
+
+
+
+
+@media (min-width: 1037px) and (max-width: 1519px) {
+
+
+.flex_productlist {
+position: relative;
+display: grid;
+gap: 0;
+max-width: 95%;
+margin-top: 4.3em;
+grid-template-columns: repeat(auto-fit, minmax(23vw, 0fr));
+}
+
+.flex_productlist .produclist_divContainer {
+position: relative;
+height: auto;
+margin-bottom: 2.1em;
+border-radius: 7px;
+border: 1px solid rgba(27, 6, 6, 0.055);
+box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12),
+0 10px 25px rgba(0, 0, 0, 0.08);
+max-width: 22.5vw;
+}
+
+
+.header_Filter {
+width: 100%;
+margin: 0em 0em 0em 0em;
+}
+
+ 
+.header_Filter {
+width: 67%;
+margin: 0em 0em 0em 333px;
+}
+
+}

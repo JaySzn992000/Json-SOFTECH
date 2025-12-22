@@ -1,0 +1,171 @@
+header {
+display: flex;
+justify-content: center;
+gap: 5.5em;
+height: 627px;
+background-color: #040021;
+padding: 27px;
+padding-top: 57px;
+transform: translateY(17em);
+text-align: start;
+}
+
+
+header div {
+width: 377px;
+background-color:#e75480;
+padding: 27px;
+padding-top: 57px;
+margin-top: -7.7em;
+}
+
+
+header ul {
+line-height: 2.7em;
+}
+
+header ul li a {
+color: #ffff;
+text-decoration: none;
+cursor: pointer; 
+}
+
+
+header ul li:hover {
+transform: translateX(1em);
+transition: 1s;
+}
+
+
+header h1 {
+color: #ffff;
+font-size: 2.1rem;
+margin-bottom: 0.4em;
+}
+
+header ul li a:hover {
+color: gainsboro;
+}
+
+
+header p {
+font-size: 1.1rem;
+line-height: 1.9em;
+margin-top: 1em;
+color: #ffff;
+}
+
+header button {
+
+padding: 21px;
+width: 257px;
+margin-top: 0.7em;
+background-color: rgba(0, 0, 0, 0.6);
+border-radius: 17px;
+border: none;
+color: #ffff;
+font-size: 1rem;
+line-height: 1.7em;
+
+}
+
+
+
+@media (max-width: 992px) {
+
+header {
+flex-direction: column;
+align-items: center;
+gap: 2em;
+height: auto;
+padding: 20px;
+padding-bottom: 77px;
+transform: translateY(7.7em);
+text-align: center;
+}
+
+header div {
+width: 100%;
+margin-top: -7.5em;
+padding: 17px;
+padding-top: 40px;
+padding-bottom: 67px;
+}
+
+
+header ul {
+line-height: 2.4em;
+}
+
+header p {
+font-size: 1rem;
+}
+
+header button {
+width: 220px;
+padding: 18px;
+}
+
+header h1 {
+font-size: 1.7rem;
+line-height: 1.6em;
+}
+
+header ul li:hover {
+transform: none;
+}
+
+header p {
+font-size: 0.95rem;
+line-height: 2.3em;
+text-align: justify;
+}
+
+header button {
+width: 100%;
+padding: 16px;
+font-size: 0.95rem;
+}
+
+}
+
+
+
+
+@media (min-width: 992px) and (max-width: 1500px) {
+
+
+header {
+padding: 30px 40px;
+gap: 1.8em;
+transform: translateY(5em);
+}
+
+
+header div {
+width: 45%;
+padding: 25px;
+}
+
+header h1 {
+font-size: 2rem;
+line-height: 1.6em;
+}
+
+header p {
+font-size: 1rem;
+line-height: 1.9em;
+}
+
+header button {
+width: 260px;
+padding: 18px;
+font-size: 1rem;
+}
+
+header ul {
+gap: 2em;
+line-height: 2.5em;
+}
+
+}

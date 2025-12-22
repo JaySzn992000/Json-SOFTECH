@@ -1,0 +1,116 @@
+
+.happy-clients {
+display: flex;
+justify-content: center;
+gap: 1.5em;
+margin-top: -3.7em;
+text-align: center;
+flex-wrap: wrap;
+cursor: pointer;
+}
+
+
+.happy-clients div {
+width: 367px;
+padding: 13px;
+line-height: 2.1em;
+z-index: 999;
+background-color: #ffffff;
+box-shadow: 40px 40px 100px rgb(180, 166, 180);
+border-radius: 7px;
+transition: all 0.5s ease;
+}
+
+.happy-clients div h3 {
+color: #101c3c;
+margin-top: .3em;
+}
+
+
+.happy-clients div h1 {
+color: #000;
+}
+
+.happy-clients div:hover h1 {
+color:#FF1493;
+}
+
+.happy-clients div span {
+display: flex;
+justify-content: center;
+gap: 0.5em;
+}
+
+
+.happy-clients h1 {
+font-size: 2.3rem;
+line-height: 1.3em;
+}
+
+.happy-clients h3 {
+font-size: 1.3rem;
+}
+
+
+@media (max-width: 992px) {
+
+.happy-clients {
+gap: 1.2em;
+flex-wrap: wrap;
+}
+
+.happy-clients div {
+width: 320px;
+}
+
+.happy-clients h1 {
+font-size: 2.3rem;
+}
+
+}
+
+
+@media (max-width: 768px) {
+
+.happy-clients {
+flex-direction: column;
+align-items: center;
+margin-top: 1em;
+}
+
+.happy-clients div {
+width: 80%;
+padding: 20px;
+}
+
+.happy-clients div span {
+margin-left: 0;
+}
+
+.happy-clients h1 {
+font-size: 2rem;
+}
+
+}
+
+
+@media (max-width: 480px) {
+
+.happy-clients div {
+width: 90%;
+padding: 15px;
+}
+
+.happy-clients h1 {
+font-size: 1.7rem;
+}
+
+.happy-clients h3 {
+font-size: 1.1rem;
+}
+
+.happy-clients {
+gap: 1em;
+}
+
+}

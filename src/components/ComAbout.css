@@ -1,0 +1,242 @@
+:root {
+--royal: royalblue;
+--muted: #6b7280;
+}
+
+
+.about-us {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 4rem;
+padding: 4rem 2rem;
+max-width: 1200px;
+margin: 0 auto;
+margin-top: 5.7em;
+}
+
+
+.about-us #aboutimg {
+width: 595px;
+}
+
+
+.about-content {
+width: 575px;
+}
+
+
+#aboutusk {
+color: var(--royal);
+font-size: 2.1rem;
+margin-bottom: -.2em;
+}
+
+
+.subhead {
+line-height: 2.1em;
+font-size: 1.2rem;
+margin: 0;
+}
+
+
+.about-text {
+margin-top: 1rem;
+text-align: justify;
+font-size: 1.07rem;
+line-height: 2.4em;
+color: #000;
+}
+
+
+#block-formediaquery {
+margin-top: 2.4rem;
+line-height: 1.1em;
+}
+
+
+.e-learning {
+display: flex;
+align-items: center;
+gap: 1.3rem;
+margin-top: 1.2rem;
+flex-wrap: wrap;
+}
+
+
+.e-learning h3 {
+font-size: 1.2rem;
+margin: 0 1.7rem 0 0;
+color: #000;
+}
+
+
+.royal-night {
+font-size: 1.3rem;
+color: var(--royal);
+}
+
+
+#call {
+margin-top: 2.7rem;
+color: var(--royal);
+font-size: 1.5rem;
+}
+
+
+.white-cl_ab {
+font-size: 1.2rem;
+color: #000;
+line-height: 1.8em;
+margin-top: 1.3em;
+}
+
+
+.contact-btn {
+background-color: var(--royal);
+border-radius: 31px;
+width: 127px;
+padding: 18px;
+border: none;
+color: #ffff;
+font-size: 1rem;
+margin-top: 1.8rem;
+cursor: pointer;
+transition: all 0.25s ease;
+}
+
+
+.contact-btn a {
+color:#ffff;
+text-decoration: none;
+}
+
+.contact-btn:hover {
+transform: scale(1.03);
+background-color: #9932CC;
+}
+
+
+
+
+@media (max-width: 321px) {
+
+.about-us {
+flex-direction: column-reverse;
+align-items: flex-start;
+gap: 1.5rem;
+padding: 1.5rem 0.8rem;
+}
+
+.about-us img {
+width: 100%;
+max-width: 300px;
+margin: 0 auto;
+}
+
+.about-content {
+width: 100%;
+text-align: start;
+}
+
+#aboutus {
+font-size: 1.4rem;
+}
+
+#call {
+font-size: 1.2rem;
+}
+
+.contact-btn {
+width: 100%;
+text-align: center;
+}
+}
+
+
+
+
+@media (min-width: 321px) and (max-width: 768px) {
+
+.about-us {
+flex-direction: column-reverse;
+align-items: flex-start;
+gap: 1.5rem;
+padding: 2rem 1rem;
+}
+
+.about-us #aboutimg {
+width: 95%;
+max-width: 360px;
+margin: 0 auto;
+}
+
+.about-text {
+font-size: 1rem;
+}
+
+.about-content {
+width: 90%;
+margin: auto;
+text-align: center;
+}
+
+
+#aboutus {
+font-size: 1.8rem;
+}
+
+
+#call {
+font-size: 1.3rem;
+}
+
+.contact-btn {
+width: 65%;
+padding: 17px;
+text-align: center;
+}
+
+
+.white-cl_ab {
+font-size: 1.1rem;
+}
+
+.royal-night {
+font-size: 1.3rem;
+}
+
+.e-learning h3 {
+font-size: 1.2rem;
+}
+
+
+
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1500px) {
+
+.about-us {
+gap: 2rem;
+padding: 3rem 1.5rem;
+}
+
+.about-us #aboutimg {
+width: 50%;
+}
+
+.about-content {
+width: 45%;
+}
+
+.white-cl_ab {
+text-align: start;
+}
+
+#call {
+text-align: start;
+}
+
+}

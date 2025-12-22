@@ -1,0 +1,89 @@
+.f-nav {
+background-color: #101c3c;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+height: auto;
+padding: 9px 47px 9px 21px;
+z-index: 999;
+}
+
+.left-info {
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+gap: 2.1em;
+}
+
+.info-item {
+display: flex;
+align-items: center;
+gap: 0.9em;
+color: white;
+font-size: 1rem;
+}
+
+
+.right-icons {
+display: flex;
+align-items: center;
+gap: .4em;
+}
+
+
+.right-icons a {
+color: white;
+font-size: 1.8em;
+border-radius: 50%;
+width: 32px;
+height: 32px;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 0.3s;
+}
+
+.right-icons a:hover {
+background-color: white;
+color: #101c3c;
+}
+
+
+
+@media (max-width: 992px) {
+
+.f-nav {
+flex-direction: column;
+align-items: center;
+height: auto;
+padding: 10px 20px;
+gap: 0.6em;
+}
+
+.left-info {
+justify-content: center;
+gap: 0.8em;
+}
+
+}
+
+
+
+@media (max-width: 576px) {
+
+.f-nav {
+padding: 10px;
+}
+
+.info-item {
+font-size: 0.8rem;
+}
+
+.right-icons a {
+font-size: 1.1em;
+width: 28px;
+height: 28px;
+}
+
+}
