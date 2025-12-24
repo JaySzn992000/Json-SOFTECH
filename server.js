@@ -748,50 +748,50 @@ res.status(500).json({ error: "Database query failed" });
 
 // fetchProductslist PostGreSQL 
 
-// app.get("/fetchProductslist", async (req, res) => {
-// const searchQuery = req.query.search || "";
-// const keywords = searchQuery.toLowerCase().split(/\s+/);
+app.get("/fetchProductslist", async (req, res) => {
+const searchQuery = req.query.search || "";
+const keywords = searchQuery.toLowerCase().split(/\s+/);
 
-// try {
-// const conditions = keywords.map((_, index) => `LOWER(name) ILIKE $${index + 1}`).join(" AND ");
-// const values = keywords.map((keyword) => `%${keyword}%`);
+try {
+const conditions = keywords.map((_, index) => `LOWER(name) ILIKE $${index + 1}`).join(" AND ");
+const values = keywords.map((keyword) => `%${keyword}%`);
 
-// const query = `
-// SELECT * FROM _imgproduct
-// WHERE ${conditions}
-// `;
+const query = `
+SELECT * FROM _imgproduct
+WHERE ${conditions}
+`;
 
-// const result = await pool.query(query, values);
+const result = await pool.query(query, values);
 
-// if (result.rows.length > 0) {
-// return res.json(result.rows);
-// }
-
-// const exactMatchQuery = `
-// SELECT * FROM _imgproduct
-// WHERE LOWER(img) = LOWER($1)
-// `;
-// const exactResult = await pool.query(exactMatchQuery, [searchQuery]);
-
-// res.json(exactResult.rows);
-// } catch (err) {
-// console.error("❌ Database query failed:", err.message);
-// res.status(500).json({ error: "Database query failed" });
-// }
-// });
-
-
-
-
-app.get("/fetchProductslist", (req, res) => {
-db.query("SELECT * FROM imgproduct", (err, results) => {
-if (err) {
-console.error("Error fetching data:", err.stack);
-return res.status(500).json({ error: "Database query failed" });
+if (result.rows.length > 0) {
+return res.json(result.rows);
 }
-res.json(results);
+
+const exactMatchQuery = `
+SELECT * FROM _imgproduct
+WHERE LOWER(img) = LOWER($1)
+`;
+const exactResult = await pool.query(exactMatchQuery, [searchQuery]);
+
+res.json(exactResult.rows);
+} catch (err) {
+console.error("❌ Database query failed:", err.message);
+res.status(500).json({ error: "Database query failed" });
+}
 });
-});
+
+
+
+
+// app.get("/fetchProductslist", (req, res) => {
+// db.query("SELECT * FROM imgproduct", (err, results) => {
+// if (err) {
+// console.error("Error fetching data:", err.stack);
+// return res.status(500).json({ error: "Database query failed" });
+// }
+// res.json(results);
+// });
+// });
 
 
 
