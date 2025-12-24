@@ -49,9 +49,9 @@ return;
 
 try {
 
-// http://localhost:3001/fetchAdmin
+// https://jsonsoftech.onrender.com/fetchAdmin
 
-const response = await fetch("http://localhost:3001/fetchAdmin", {
+const response = await fetch("https://jsonsoftech.onrender.com/fetchAdmin", {
 method: "POST",
 headers: { "Content-Type": "application/json" },
 body: JSON.stringify({
