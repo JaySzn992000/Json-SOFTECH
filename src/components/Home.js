@@ -135,7 +135,7 @@ content="Pickles, Homemade Achaar, Mango Pickle, Buy Pickles Online, Indian Pick
 
 <button onClick={seeAllProducts} className="seeLLProducts">View All</button>
 
-<CustomerSection></CustomerSection>
+// <CustomerSection></CustomerSection>
 
 <Websolution></Websolution>
 
