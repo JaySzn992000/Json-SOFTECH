@@ -1,9 +1,7 @@
-/* Done */
 
 iframe {
 border: none;
 }
-
 
 .form_contact {
 display: flex;
@@ -13,7 +11,6 @@ gap: 4.7em;
 margin-top: 6.7em;
 text-align: start;
 }
-
 
 .form_contact input,
 .form_contact textarea {
@@ -27,12 +24,10 @@ font-size: .9rem;
 border: 1px solid rgb(169, 163, 163);
 }
 
-
 .form_contact input:focus,
 .form_contact textarea:focus {
 box-shadow: 0 0 0 2px rgba(16, 32, 79, 0.1);
 }
-
 
 .form_contact textarea {
 padding: 1em;
@@ -40,7 +35,6 @@ min-height: 140px;
 resize: vertical;
 margin-top: 2.1em;
 }
-
 
 .form_contact button {
 margin-top: 2.7em;
@@ -57,12 +51,10 @@ transition: 0.5s;
 cursor: pointer;
 }
 
-
 .form_contact button:hover {
 color: #ffff;
 transform: translateY(-5px);
 }
-
 
 .form_contact h1:first-child {
 color: #000;
@@ -70,7 +62,6 @@ font-size: 2.3rem;
 line-height: 1.5em;
 margin-bottom: 0.7em;
 }
-
 
 .form_contact img {
 width: 521px;  
@@ -81,22 +72,18 @@ border-radius: 3px;
 cursor: pointer;
 }
 
-
 .hideInput_Contact {
 display: none;
 }
-
 
 .success_message {
 text-align: center;
 }
 
-
 .about_flex_contct {
 display: flex;
 flex-direction: column;
 }
-
 
 .about_flex_contct .iframeMap{
 width: 90vw;
@@ -105,14 +92,12 @@ margin: auto;
 margin-top: 3.7em;
 }
 
-
 .out_location {
 width: 70vw;
 text-align: center;
 margin: auto;
 margin-top: 6.3em;
 }
-
 
 .about_flex_contct div p {
 width: 70vw;
@@ -122,17 +107,14 @@ text-align: center;
 color: rgb(128, 128, 128);
 }
 
-
 .about_flex_contct div h2 {
 margin-bottom: -.2em;
 font-size: 2.1rem;
 }
 
-
 .about_flex_contct div {
 line-height: 1.3em;
 }
-
 
 .success_message {
 color:#FF0000;
@@ -150,14 +132,12 @@ text-align: center;
 padding: 0;
 }
 
-
 .form_contact .form_div {
 width: 85vw;
 margin: auto;
 margin-top: -2.7em;
 margin-bottom: 1.7em;
 }
-
 
 .form_contact img {
 width: 80%;
@@ -173,13 +153,11 @@ width: 85%;
 width: 90%;
 }
 
-
 .form_contact button {
 width: 55%;
 font-size: 0.9rem;
 padding: 1.1em;
 }
-
 
 .form_contact h1:first-child {
 font-size: 1.7rem;
@@ -188,11 +166,9 @@ text-align: center;
 margin-top: -.5em;
 }
 
-
 .about_flex_contct .iframeMap {
 width: 100%;
 }
-
 
 .about_flex_contct div{
 width: 85%;
@@ -213,8 +189,6 @@ font-size: 1.6rem;
 
 }
 
-
-/*  */
 
 
 @media (min-width: 1025px) and (max-width: 1500px) {

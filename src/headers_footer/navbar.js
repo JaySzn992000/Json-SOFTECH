@@ -152,7 +152,7 @@ naviShorts("/CategoryGhee");
 
 const naviProfile = useNavigate();
 const navitoAccount = () => {
-naviProfile('/Profile')
+naviProfile('/')
 }
 
 const naviCart = useNavigate();
@@ -175,7 +175,7 @@ naviAbout('/Aboutus')
 const NavitoProductlist = useNavigate()
 
 const naviToCollection = () => {
-NavitoProductlist('/Productlist')
+NavitoProductlist('/')
 }
 
 const privacyNavi = useNavigate();
@@ -288,13 +288,12 @@ const seeAllProducts = () => {
 naviGateProductsAll('/ProductList')
 }
 
-
 return (
 
 <div>
 
 <Helmet>
-<title>Naturalbuti - Header</title>
+<title>JSON Softech</title>
 <meta
 name="description"
 content="Niti Arya offers a variety of pickles including mango, carrot, garlic, and more. Shop now for fresh and delicious pickles."
@@ -328,7 +327,7 @@ alt=""
 <div className="div_ul">
 
 <li className="hover_products">
-<a onClick={naviToCollection}  href="">SERVICES</a>
+<a onClick={naviToCollection}  href="">HOME</a>
 
 {/* <div className="listing_Products">
 <ul>
@@ -393,7 +392,7 @@ alt=""
 
 <div className="flex_nav_ProfileSection">
 
-<ul className="nav_profileSection">
+{/* <ul className="nav_profileSection">
 
 <img
 src={Heart}
@@ -417,9 +416,9 @@ src={User}
 </li>
 </ul>
 
-</ul>
+</ul> */}
 
-<img
+{/* <img
 src={Cart}
 onClick={navigateEcart}
 className="fa fa-shopping-cart navProfile_img"
@@ -445,7 +444,7 @@ placeholder="Search Our Product"
 >
 </input>
 
-<i onClick={searchProducts} className="fa fa-search"></i>
+<i onClick={searchProducts} className="fa fa-search"></i> */}
 
 <div>
 
@@ -468,20 +467,20 @@ loading="lazy"
 
 <div className="flex_icon_">
 
-<img
+{/* <img
 style={{ marginLeft: ".4em" }}
 src="https://cdn-icons-png.flaticon.com/128/456/456283.png"
 alt=""
 loading="lazy"
-/>
+/> */}
 
-<li onClick={navitoAccount} style={{ marginLeft: "-.5em" }}>
-<a href="">MY ACCOUNT</a>
+<li onClick={navitoAccount} >
+<a href="">HOME</a>
 </li>
 </div>
 </div>
 
-<div className="navSlider_flex">
+{/* <div className="navSlider_flex">
 
 <img
 src="https://cdn-icons-png.flaticon.com/128/3059/3059486.png"
@@ -497,42 +496,39 @@ loading="lazy"
 <a href="#">{loggedInUser.email}</a>
 </li>
 </div>
-</div>
-
+</div> */}
 
 <div className="flex_div_prfle">
+
 <div className="flex_icon_">
-<img
+{/* <img
 src="https://cdn-icons-png.flaticon.com/128/1170/1170678.png"
 className="img_pf"
 alt=""
 loading="lazy"
-/>
+/> */}
 
 <li onClick={naviToCartAccount}>
-<a href="">SHOP</a>
+<a href="">ABOUT</a>
 </li>
 </div>
 
-
-<div className="flex_icon_">
+{/* <div className="flex_icon_">
 <img style={{width : '37px'}}
 src="https://cdn-icons-png.flaticon.com/128/18985/18985584.png"
 className="img_pf"
 alt=""
-loading="lazy"
-/>
-
+loading="lazy" />
 
 <li onClick={seeAllProducts}>
 <a href="">Service's</a>
 </li>
 
-</div>
+</div> */}
 
 {/*  */}
 
-<div className="flex_icon_">
+{/* <div className="flex_icon_">
 <img
 src="https://cdn-icons-png.flaticon.com/128/2822/2822682.png"
 className="img_pf"
@@ -543,11 +539,11 @@ loading="lazy"
 <li onClick={orderhistory}>
 <a href="">ORDER HISTORY</a>
 </li>
-</div>
+</div> */}
 
 {/*  */}
 
-<div className="flex_icon_">
+{/* <div className="flex_icon_">
 
 <img
 src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png"
@@ -560,17 +556,17 @@ loading="lazy"
 <a href="">WISHLIST</a>
 </li>
 
-</div>
+</div> */}
 
 {/*  */}
 
 <div className="flex_icon_ contact-us">
-<img
+{/* <img
 src="https://cdn-icons-png.flaticon.com/128/11980/11980549.png"
 className="img_pf"
 alt=""
 loading="lazy"
-/>
+/> */}
 
 <li onClick={naviToContactus}>
 <a href="">CONTACT US</a>
@@ -593,7 +589,7 @@ loading="lazy"
 
 {/*  */}
 
-<div className="sign_out flex_icon_">
+{/* <div className="sign_out flex_icon_">
 <img
 src="https://cdn-icons-png.flaticon.com/128/4034/4034329.png"
 className="img_pf"
@@ -603,7 +599,7 @@ loading="lazy"
 <li onClick={logout}>
 <a href="#">SIGN OUT</a>
 </li>
-</div>
+</div> */}
 </div>
 </div>
 ) : (

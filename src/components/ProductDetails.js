@@ -137,30 +137,6 @@ return (
 
 <div>
 
-<Helmet>
-<title>Premium Homemade Pickles - Authentic Taste | Pickle</title>
-<meta
-name="description"
-content="Shop premium homemade pickles made with traditional recipes and fresh ingredients. Pickle brings you authentic Indian achar at your doorstep."
-/>
-<meta
-name="keywords"
-content="Pickle, Homemade Pickles, Indian Achar, Organic Pickles, Traditional Pickles, Buy Pickle Online"
-/>
-<meta property="og:title" content="Buy Premium Homemade Pickles | Pickle" />
-<meta
-property="og:description"
-content="Explore the authentic flavors of India with our range of handmade pickles. No preservatives, just pure taste."
-/>
-<meta
-property="og:image"
-content="https://yourdomain.com/images/pickle-default.jpg"
-/>
-<meta property="og:type" content="website" />
-<meta property="og:site_name" content="Pickle" />
-</Helmet>
-
-
 <Navbar cartCount={cartCount} />
 
 <div className="product-details">

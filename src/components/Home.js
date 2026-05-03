@@ -130,15 +130,13 @@ content="Pickles, Homemade Achaar, Mango Pickle, Buy Pickles Online, Indian Pick
 
 {/*  */}
 
-
 {/*  */}
 
-<button onClick={seeAllProducts} className="seeLLProducts">View All</button>
+{/* <button onClick={seeAllProducts} className="seeLLProducts">View All</button> */}
 
 {/* <CustomerSection></CustomerSection> */}
 
 <Websolution></Websolution>
-
 
 {/* <div id="bottomFav_comp">
 <BottomFavcomp />
@@ -150,8 +148,8 @@ content="Pickles, Homemade Achaar, Mango Pickle, Buy Pickles Online, Indian Pick
 <Pickles showFilters={showFilters} limit={5}></Pickles>
 </div>
 
-<button onClick={seeAllProducts} 
-className="seeLLProducts">View All</button>
+{/* <button onClick={seeAllProducts} 
+className="seeLLProducts">View All</button> */}
 
 {/*  */}
 
@@ -197,7 +195,6 @@ className="DlvyImg"
 ></img> */}
 
 {/* SlidCakeImg */}
-
 
 
 <div className="subscribe_k">

@@ -85,22 +85,6 @@ return (
 
 <div>
 
-<Helmet>
-<title>Explore Pickle Products | Authentic & Delicious Pickles Online</title>
-<meta
-name="description"
-content="Discover a wide variety of hand-crafted, delicious pickles made with traditional recipes. Buy the best pickles online at Pickle."
-/>
-<meta
-name="keywords"
-content="buy pickles online, handmade pickles, Indian pickles, organic achar, pickle products"
-/>
-<meta property="og:title" content="Authentic Pickles Collection | Pickle" />
-<meta
-property="og:description"
-content="Taste the tradition with our authentic pickle range. Shop online for spicy, sweet, and sour pickles delivered to your door."
-/>
-</Helmet>
 
 <Navbar wishlistCount={wishlistCount} cartCount={cartCount} />
 

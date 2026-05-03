@@ -5,19 +5,19 @@ import "slick-carousel/slick/slick-theme.css";
 
 import img1 from "../Slider/Website1.jpg";
 import img2 from "../Slider/Website2.jpg";
-import img3 from "../Slider/website3.jpg";
+import img3 from "../Slider/Website3.jpg";
 import img4 from "../Slider/Website4.jpg";
-import img5 from "../Slider/Website5.jpg";
+import img5 from "../Slider/website5.jpg";
 
 import "./WebSlider.css";
 
 
 const websites = [
-{ name: "Natural Buti", url: "https://naturalbuti.vercel.app/", img: img1 },
-{ name: "Lavonne", url: "https://lavonne.vercel.app/", img: img2 },
-{ name: "Namasya", url: "https://namasya.vercel.app/", img: img5 },
-{ name: "Antara XI", url: "https://antara-xi.vercel.app/", img: img3 },
-{ name: "Omega Liard", url: "https://omega-liard.vercel.app/", img: img4 },
+{ name: "Winsome Bloom", url: "https://winsome-bloom.vercel.app/", img: img1 },
+{ name: "HT London", url: "https://htlondon.vercel.app/", img: img2 },
+{ name: "Essence", url: "https://essence-furniture.vercel.app/", img: img5 },
+{ name: "Lavonne", url: "https://lavonne.vercel.app/", img: img3 },
+{ name: "Sanaargold", url: "https://sanaargold.com/?srsltid=AfmBOop2tkX0r0WwOr5B5DEjliIdRBR2vFAYGbgr-7xIoNtzmARuGZQX", img: img4 },
 ];
 
 const WebSlider = () => {

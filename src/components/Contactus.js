@@ -54,7 +54,6 @@ setSuccessMessage("Failed to send message. Please try again.");
 return (
 
 <div>
-
   
 <form onSubmit={sendEmail} className="form_contact">
 <figure>
@@ -62,7 +61,7 @@ return (
 </figure>
 
 <div>
-<h1 className="contct_us">Hi there! <br />Contact Us</h1>
+<h1 id="contct_us">Hi there! <br />Contact Us</h1>
 
 <input
 type="text"

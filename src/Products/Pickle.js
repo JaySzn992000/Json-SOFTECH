@@ -79,18 +79,6 @@ setWishlistCount(wishlist.length);
 return (
 
 <div>
-<Helmet>
-<title>Fresh Mangoes | Premium Quality Mango Pickles for Sale</title>
-<meta
-name="description"
-content="Taste the tangy and spicy flavor of our homemade mango pickles. Made with fresh ingredients and traditional recipes"
-/>
-<meta
-name="keywords"
-content="Mango Pickle, Homemade Pickle, Spicy Mango Pickle, Buy Mango Pickle, Traditional Mango Pickle"
-/>
-<link rel="canonical" href="https://www.pickles.com/mangoes" />
-</Helmet>
 
 {showFilters && <Navbar />}
 {showFilters && (

@@ -1,7 +1,3 @@
-/* Done .. */
-
-/* ... This is 
-for navBar ..  */
 
 .nav_Logo {
 display: flex;
@@ -237,7 +233,8 @@ z-index: 999;
 
 
 .fa-bars {
-width: 27px;
+display: none;
+width: 31px;
 cursor: pointer;
 border-radius: 7px;
 color: rgb(255, 255, 255);
@@ -293,11 +290,6 @@ word-wrap: break-word;
 word-break: break-word;
 box-sizing: border-box;
 list-style: none;
-}
-
-
-.flex_div_prfle {
-margin-top: 2.7em;
 }
 
 
@@ -532,6 +524,7 @@ height: auto;
 .fa-bars{
 margin-right: .5em;
 width: 24px;
+display: block;
 }
 
 .navProduct_Slider {
@@ -624,6 +617,8 @@ line-height: 2.9em;
 
 .Product_navbar {
 display: flex;
+padding: 0;
+height: 73px;
 justify-content: space-between;
 padding-left: 0;
 }
@@ -682,6 +677,10 @@ border: 1px solid #dcdcdc;
 
 
 @media (min-width: 769px) and (max-width: 932px) {
+
+.fa-bars{
+display: block;
+}
 
 .navProduct_Slider {
 overflow-y: auto;

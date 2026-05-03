@@ -1,4 +1,7 @@
 import React from "react";
+import socialmedia from '../Slider/socialmedia.jpg'
+import uiux from '../Slider/uiux.jpg'
+import webdevelopment from '../Slider/webdevelopment.jpg'
 import "./Websolution.css";
 
 const Websolution = () => {
@@ -15,10 +18,9 @@ Social Marketing Solutions<br />
 
 <div className="hover-slide">
 
-<img
-src="https://webitof.com/wp-content/uploads/2021/04/Website-Design-webitof.png"
+<img src={socialmedia}
 alt="Web Design"
-/>
+></img>
 
 <div className="slide-layer">
 <div className="slide-content">
@@ -32,10 +34,9 @@ creative content, and consistent brand growth.
 </div>
 
 <div className="hover-slide">
-<img
-src="https://webitof.com/wp-content/uploads/2021/04/social-marketing-webitof-image.png"
-alt="UI UX"
-/>
+<img src={uiux}
+alt="ui ux"
+></img>
 <div className="slide-layer">
 <div className="slide-content">
 <h1>Google Business Listing</h1>
@@ -48,10 +49,11 @@ local visibility and generate more leads.
 </div>
 
 <div className="hover-slide">
-<img
-src="https://webitof.com/wp-content/uploads/2021/05/App-Development-webitof.jpg"
-alt="Web Development"
-/>
+
+<img src={webdevelopment}
+alt="web development"
+></img>
+
 <div className="slide-layer">
 <div className="slide-content">
 <h1>Brand Growth</h1>

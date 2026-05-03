@@ -118,7 +118,7 @@ alt="Background"
 
 <div className="form_div">
 
-<h1>
+<h1 style={{color : '#ffff'}}>
 Hi there! <br/>
 Contact Us
 </h1>
