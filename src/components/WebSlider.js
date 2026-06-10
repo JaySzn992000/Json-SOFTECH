@@ -10,7 +10,6 @@ import img5 from "../Slider/Website5.jpg";
 
 import "./WebSlider.css";
 
-
 const websites = [
 { name: "Winsome Bloom", url: "https://winsome-bloom.vercel.app/", img: img1 },
 { name: "HT London", url: "https://htlondon.vercel.app/", img: img2 },
